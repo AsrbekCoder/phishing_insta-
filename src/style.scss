@@ -54,7 +54,7 @@ body {
 
 .overlap-text {
   position: relative;
-  a {
+  .a {
     @include flexBox();
     position: absolute;
     top: 50%;
@@ -65,7 +65,7 @@ body {
     color: #000;
     font-weight: 400;
     font-size: 14px;
-    text-decoration: none;
+    cursor: pointer;
   }
 }
 

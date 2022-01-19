@@ -1,6 +1,7 @@
 import React from "react";
 import Instagramm from "./assest/zqpwkLQ.png";
 import Facebook from "./assest/facebook (2).png";
+import { JoinBlock } from "./components";
 
 const App = () => {
   return (
@@ -10,18 +11,8 @@ const App = () => {
           <div className="header">
             <img src={Instagramm} alt="img" />
           </div>
-          <div className="l-part">
-            <input
-              type="text"
-              placeholder="Телефон, имя пользователя или эл. адрес"
-              className="input-1"
-            />
-            <div className="overlap-text">
-              <input type="password" placeholder="Пароль" className="input-2" />
-              <a href="#">Покозать</a>
-            </div>
-            <input type="button" value="Войти" className="btn" />
-          </div>
+          <JoinBlock />
+
           <div className="or_type">
             <span>___________</span>
             <h3>ИЛИ</h3>
@@ -34,12 +25,12 @@ const App = () => {
           </div>
 
           <div className="or_forgot">
-            <a href="">Забыли пароль?</a>
+            <a href="asdh">Забыли пароль?</a>
           </div>
         </div>
         <div className="sub-content">
           <div className="s-part">
-            У вас ещё нет аккаунта?<a href="#"> Зарегистрироваться</a>
+            У вас ещё нет аккаунта?<a href="asdasd"> Зарегистрироваться</a>
           </div>
         </div>
       </div>
